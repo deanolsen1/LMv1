@@ -1,0 +1,537 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia167ojf0",
+        "title": "Swedish Covenant Hospital",
+        "description": "This is where I was born in 1959. My mother came all the way in from the northwest suburbs to have me in a Swedish hospital.",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "warehouse"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.699415,
+          41.97546
+        ],
+        "type": "Point"
+      },
+      "id": "cia16b2s50002i0j7vv6rac95"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia16eonl0",
+        "title": "We lived here until I was five",
+        "description": "I don't remember much about this house. One memory I have is walking to kindergarten though now looking at the map, I wonder if I actually walked that far at age 5. Maybe I walked from the bus into the school. I also remember nap time. These memories are glimpses, not narratives.",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "building"
+      },
+      "geometry": {
+        "coordinates": [
+          -88.024263,
+          42.077345
+        ],
+        "type": "Point"
+      },
+      "id": "cia17hjs4004ginkvutzlrxvq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia16jmp01",
+        "title": "We moved to Evanston",
+        "description": "We lived in this house for a long time. My parents eventually moved to a smaller house after all the kids were gone. ",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "building"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.687292,
+          42.030938
+        ],
+        "type": "Point"
+      },
+      "id": "cia17hjs5004hinkv8itn6xmp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia16lgas2",
+        "title": "My High School",
+        "description": "ETHS was a great school and a very big school. There were 4,000 students under one roof. It was intimidating but it prepared you for the world.",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "library"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.70066,
+          42.046424
+        ],
+        "type": "Point"
+      },
+      "id": "cia17hjs6004iinkv66dpnsup"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia17fuzp3",
+        "title": "Best friend's house",
+        "description": "Frier McCollister lived here. For a few years, we were kind of inseparable.",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "building"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.708964,
+          42.06575
+        ],
+        "type": "Point"
+      },
+      "id": "cia17hjs7004jinkvry0jjvr8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia17xnz70",
+        "title": "Off to Wisconsin",
+        "description": "I went to college at the University of Wisconsin, along with a whole bunch of other ETHS grads. ",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "college"
+      },
+      "geometry": {
+        "coordinates": [
+          -89.403905,
+          43.075283
+        ],
+        "type": "Point"
+      },
+      "id": "cia194cor000hidlzit0cnago"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia1804qa1",
+        "title": "I lived many, many places",
+        "description": "I guess I moved around a lot during my four years here. I'll mark some of the places with this symbol.",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "building"
+      },
+      "geometry": {
+        "coordinates": [
+          -89.384293,
+          43.078558
+        ],
+        "type": "Point"
+      },
+      "id": "cia194cou000iidlzcwzjcvyh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia182a8m2",
+        "title": "Lived here",
+        "description": "",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "building"
+      },
+      "geometry": {
+        "coordinates": [
+          -89.388477,
+          43.068135
+        ],
+        "type": "Point"
+      },
+      "id": "cia194cov000jidlz73dh7c19"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia18304l3",
+        "title": "Lived here.",
+        "description": "",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "building"
+      },
+      "geometry": {
+        "coordinates": [
+          -89.395515,
+          43.077116
+        ],
+        "type": "Point"
+      },
+      "id": "cia194cp3000kidlz2omz40bj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia183hvo4",
+        "title": "Lived here.",
+        "description": "",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "building"
+      },
+      "geometry": {
+        "coordinates": [
+          -89.382083,
+          43.079029
+        ],
+        "type": "Point"
+      },
+      "id": "cia194cp5000lidlz1gwebs21"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia185q1g5",
+        "title": "Back to Chicago",
+        "description": "Lived here for a few years.",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "building"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.643615,
+          41.946691
+        ],
+        "type": "Point"
+      },
+      "id": "cia194cp7000midlzkxb8js3i"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia186v0f6",
+        "title": "Lived here",
+        "description": "Lived here a few years, too.",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "building"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.647863,
+          41.943451
+        ],
+        "type": "Point"
+      },
+      "id": "cia194cp8000nidlz2a8glh6m"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia187h887",
+        "title": "Lived here, too",
+        "description": "Horrible place with a brother and sister who were always fighting.",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "building"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.650427,
+          41.943459
+        ],
+        "type": "Point"
+      },
+      "id": "cia194cp9000oidlz1iy191f6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia18870k8",
+        "title": "Lived here, too",
+        "description": "Another not so great living situation.",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "building"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.65061,
+          41.943811
+        ],
+        "type": "Point"
+      },
+      "id": "cia194cpb000pidlzgjvy9qr2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia18986q9",
+        "title": "Lived here with Michael Such",
+        "description": "Building has been torn down and replaced. Great neighborhood, crappy apartment.",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "building"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.627028,
+          41.901398
+        ],
+        "type": "Point"
+      },
+      "id": "cia194cpc000qidlzthrjw1nt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia18amdja",
+        "title": "Worked here",
+        "description": "Bureau of Transportation Planning and Programming, Chicago Department of Planning.",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "commercial"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.63206,
+          41.888165
+        ],
+        "type": "Point"
+      },
+      "id": "cia194cpe000ridlz33mq5vmr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia18cj3zb",
+        "title": "Ameritech corporate HQ",
+        "description": "Worked here a bunch of years after returning to Chicago",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "commercial"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.637445,
+          41.880329
+        ],
+        "type": "Point"
+      },
+      "id": "cia194cpf000sidlz5ry61iay"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia18dre0c",
+        "title": "Gary lived here",
+        "description": "Gary Spanier lived here in a studio.",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "heart"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.639634,
+          41.934162
+        ],
+        "type": "Point"
+      },
+      "id": "cia194cpg000tidlzuwr9kbp7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia18ha0qd",
+        "title": "Monroe Street apartment",
+        "description": "I lived here when I went to grad school.",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "building"
+      },
+      "geometry": {
+        "coordinates": [
+          -83.741505,
+          42.273085
+        ],
+        "type": "Point"
+      },
+      "id": "cia194cpi000uidlznwy6wlb4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia18hx1ke",
+        "title": "Ross Business School",
+        "description": "Got my MBA here from 1989 to 1991.",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "library"
+      },
+      "geometry": {
+        "coordinates": [
+          -83.736805,
+          42.272831
+        ],
+        "type": "Point"
+      },
+      "id": "cia194cpj000vidlzufi6vojt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia18kop5f",
+        "title": "First permanent NYC apt",
+        "description": "661 10th Avenue. Great two-level apartment. Should have bought it!!!",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "building"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.993145,
+          40.763202
+        ],
+        "type": "Point"
+      },
+      "id": "cia194cpl000widlzycuphjzz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia18mhjxg",
+        "title": "W 71st Street",
+        "description": "First apartment in NYC. Lived here summer of 1990. Nasty apt but loved being in NYC.",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "building"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.981204,
+          40.777697
+        ],
+        "type": "Point"
+      },
+      "id": "cia194cpn000xidlze1f85r4k"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia18o2uai",
+        "title": "Ogilvy & Mather",
+        "description": "Worked here for a few years, mostly on American Express but also time on Hardies and new business.",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "building"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.987008,
+          40.762105
+        ],
+        "type": "Point"
+      },
+      "id": "cia194cpo000yidlz8bc1u1h7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia18pnykj",
+        "title": "415 W 52nd St",
+        "description": "Great apartment, great neighborhood. Unfortuantely lost my rent stabilized lease. Would still be there now if I could.",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "building"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.988628,
+          40.765177
+        ],
+        "type": "Point"
+      },
+      "id": "cia194cpq000zidlz58dhzfmd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia18r7gxk",
+        "title": "810 7th Av",
+        "description": "Worked here at Lord, Dentsu ad agency after O&M.",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "commercial"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.982416,
+          40.762853
+        ],
+        "type": "Point"
+      },
+      "id": "cia194cps0010idlztmts4ayw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia18sskil",
+        "title": "58 E 81st St",
+        "description": "Last apartment in NYC. Posh neighborhood, not so posh apartment.",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "building"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.9604,
+          40.777177
+        ],
+        "type": "Point"
+      },
+      "id": "cia194cpt0011idlzwp3n0nyd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia18xe5cn",
+        "title": "12 Gordon Place",
+        "description": "Great apartment (actually Gary's) in very nice neighborhood.",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "building"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.194583,
+          51.503787
+        ],
+        "type": "Point"
+      },
+      "id": "cia194cpv0012idlzxl99kes7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-ia191zaxo",
+        "title": "Ogilvy & Mather London",
+        "description": "Worked here whilst in London.",
+        "marker-size": "medium",
+        "marker-color": "#1087bf",
+        "marker-symbol": "commercial"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.021457,
+          51.505684
+        ],
+        "type": "Point"
+      },
+      "id": "cia194cpw0013idlzj31jzycy"
+    }
+  ]
+}

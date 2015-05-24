@@ -1,0 +1,123 @@
+/*CSS styl sheet for intro page*/
+
+@charset "utf-8";
+
+@font-face {
+  font-family: Franklin Gothic Heavy;
+  src: url(franklin_gothic_heavy.ttf);
+}
+.clr {
+  clear:both;
+}
+
+
+.nav ul {
+  list-style: none;
+  background-color: rgba(58,55,55,.2);
+  text-align: center;
+  padding-right: 1px;
+  padding-left: 1px;
+  margin-top: -3%;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+.nav li {
+  font-family: arial;
+  font-weight: bolder;
+  font-size: .7em;
+  line-height: 25px;
+  height: 25px;
+  margin-bottom: 0px;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #783745;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+ 
+.nav a:active {
+  background-color: #783745;
+  color: #000000;
+  cursor: default;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+
+/*entire page*/
+body {
+	width: 100%;
+	color: #574B4D;
+	margin: 3%;
+	background-color: #E8E8E8;
+	margin-right: 30px;
+	background-size: contain;
+}
+
+/*narrative text*/
+body p {
+	font-size: 16pt;
+	line-height: 130%;
+	color: #403E3E;
+	margin-left: 20px;
+	margin-right: 60px;
+	display: inline-block;
+	padding: 10px;
+	visibility: hidden;
+	font-family: arapey;
+	font-style: normal;
+	font-weight: 400;
+}
+
+img {
+	float: left;
+	margin-left: 20px;
+	width: 430px;
+	height: 335px;
+	visibility: hidden;
+}
+
+h1 {
+	font-family: Franklin Gothic Heavy;
+	font-size: 24pt;
+	color: #675A5A;
+	width: 40%;
+	float: left;
+	margin-top: 90px;
+	line-height: 130%;
+	visibility: hidden;
+}
+
+/*changes color of book's title*/
+.title {
+	color: #783745;
+	font-weight: 400;
+	font-size: 24pt;
+}
+
+/*colors text */
+.emphasis {
+	color: #8C2A3F;
+	margin-top: -20px;
+}
+
+/*Josh's signature block*/
+.signature {
+	font-size: 16pt;
+	margin-top: -5px;
+	float: left;
+	width: 600px;
+}

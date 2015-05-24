@@ -1,0 +1,157 @@
+/*CSS style sheet for credits page*/
+
+@font-face {
+  font-family: Franklin Gothic Heavy;
+  src: url(franklin_gothic_heavy.ttf);
+}
+.clr {
+  clear:both;
+}
+
+
+.nav ul {
+  list-style: none;
+  background-color: rgba(58,55,55,.2);
+  text-align: center;
+  padding-right: 1px;
+  padding-left: 1px;
+  margin-top: -20px;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+.nav li {
+  font-family: arial;
+  font-weight: bolder;
+  font-size: .7em;
+  line-height: 25px;
+  height: 25px;
+  margin-bottom: 0px;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #783745;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+ 
+.nav a.active {
+  background-color: #783745;
+  color: #000000;
+  cursor: default;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+img {
+    width: 125px;
+    margin-top: -30px;
+    position: absolute;
+    float: left;
+    margin-left: 10px;
+}
+
+    
+h1 {
+  font-family: Franklin Gothic Heavy;
+  font-size: 30px;
+  position: absolute;
+  float: right;
+  top: 50px;
+  margin-left: 150px;
+  font-style: normal;
+  line-height: 120%;
+  visibility: hidden;
+}
+
+h1 .emphasis {
+  color: #783745;
+  margin-top: 0px;
+}
+
+h2 {
+	font-family: Franklin Gothic Heavy;
+	font-size: 16pt;
+  line-height: 130%;
+	text-align: left;
+  width: 80%;
+	margin-bottom: -20px;
+	color: #783745;
+	position: relative;
+  text-decoration: none;
+  visibility: hidden;
+}
+
+body {
+	font-style: normal;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 10px;
+  background-color: #E8E8E8;
+/*  visibility: hidden;
+*/}
+
+#text {
+  font-size: 14pt;
+  line-height: 130%;
+	margin-top: 180px;
+	margin-left: 40px;
+	margin-right: 20px;
+}
+
+.link {
+	color: #783745;
+}
+
+.accordion {
+  z-index: 20;
+  margin-right: 6%;
+}
+
+dt {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14pt;
+}
+
+dd {
+  border-left: thin solid black;
+  padding: 10px;
+  top:40px;
+}
+
+
+dt a{
+  text-decoration: none;
+  top: 0px;
+  margin-top: -20px;
+}
+
+dd .active {
+  font-size: 14px;
+  color: black;
+}
+
+.accordian a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+   
+dd {
+     position: relative;
+     top: 10px;
+}
+

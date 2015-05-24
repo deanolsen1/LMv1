@@ -1,0 +1,66 @@
+ <!DOCTYPE html>
+
+<html>
+    
+<head>
+    <meta charset="utf-8"/>
+    <link rel="shortcut icon" href="img/arch_cropped2.png">
+    <title>Naked City Maps</title>
+        
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+
+    <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
+    <link rel="stylesheet" href="css/multiple-select.css"/>
+    <link rel="stylesheet" href="css/map2style.css"/>
+    <link rel="stylesheet" href="css/lightbox.css"/>
+
+    <script src='js/jquery.js'></script> 
+    <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src='js/jquery.multiple.select.js'></script>
+    <script src='js/map2.js'></script>
+    <script src="lib/lightbox.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+        <ul>
+            <li class="index"><a href="index.html">Introduction</a></li>
+            <li class="map"><a href="map1.html">Subjective Marker Maps</a></li>
+             <li class="satmap"><a href="map2.html">Naked City Maps</a></li>
+            <li class="credits"><a href="credits.html">Credits</a></li>
+        </ul>
+        </div>
+    </header>
+
+    <div id="menu">
+        <div class="mheader">
+            <h2>Clerc&#8217;s Subjective Markers<br><a href="img/naked_city.jpg" data-lightbox="image-1" data-title="<center><i>The Naked City:</i> Debord's 1957 Map of Paris">Naked City</a> Maps</h2>
+
+           <button id = "uncheckAllBtn" class= "button">Uncheck All</button>
+            <button id = "resetMapBtn" class= "button">Reset Map</button>
+            <button id = "minButton" class= "buttonMin">+/-</button>
+            <p id="checkedNum"></p>
+        </div>
+
+        <div id="SubjectiveMarkers" class="scroll" style= "display: none">
+        </div>
+
+    </div>
+
+    <div id='map'></div>
+
+    <div id="sliderContainer">
+        <input class="range-slider leaflet-control" width="2" id="mySlider">
+        <div id="temporalLegend"></div>
+    </div>
+
+	<div class="clr"></div>
+
+    <div id="dvAllMyZooms"></div>
+    
+</body>
+
+</html>

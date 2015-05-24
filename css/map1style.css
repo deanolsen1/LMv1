@@ -1,0 +1,224 @@
+/*CSS style sheet for map page*/
+
+@font-face {
+font-family: Franklin Gothic Heavy;
+src: url(franklin_gothic_heavy.ttf);
+}
+
+.clr {
+	clear:both;
+}
+
+body {
+	  background-color: #E8E8E8;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: rgba(58,55,55,.2);
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: -8px;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+.nav li {
+  font-family: arial;
+  font-weight: bold;
+  font-size: .7em;
+  line-height: 25px;
+  height: 25px;
+  margin-bottom: 0px;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  transition: .5s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #783745;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+ 
+.nav a.active {
+  background-color: #783745;
+  color: #000000;
+  cursor: default;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+#vcr-controls {
+	position: absolute;
+	width: auto;
+	height: auto;
+    padding: 10px;
+	z-index: 21;
+	right: 25px;
+  	background-color: rgba(220,220,220,.7);
+	border: thin solid black;
+}
+
+.vcr img {
+	float: left;
+	margin-right: 10px;
+	width: 28px;
+	height: 28px;
+	padding: 2px;
+}
+
+.temporal-legend {
+	font-size: 11pt;
+	font-family: arial;
+	font-weight: 600;
+	background-color: rgba(220,220,220,.9);
+	color: black;
+	padding: 5px;
+	margin: 5px;
+	width: auto;
+	height: auto;
+	right: 5px;
+	text-align: center;
+	float: left;
+	position: relative;
+	bottom: 90px;
+	border: thin solid #000000;
+}
+
+.range-slider {
+	width: 320px;
+	background-color: rgba(220,220,220,.9);
+	position: absolute;
+	bottom: 70px;
+	right: 5px;
+	margin: 5px;
+}
+
+#menu{
+	height: 740px;
+	width: 325px;
+	float: left;
+	margin-left: 30px;
+	top: 45px;
+	font-family: arial;
+	font-weight: 600;
+	padding: 5px;
+	font-style: normal;
+	font-size: 11pt;
+	line-height: 150%;
+    color: #675A5A;
+	position: absolute;
+	left: -10px;
+	z-index: 21;
+}
+
+.mheader {
+	color: black;
+  	padding-top: 10px;
+  	padding-left: 10px;
+  	padding-right: 6px;
+  	width: 95%;
+  	background-color: rgba(220,220,220,.9);
+  	border: thin solid #000000;
+}
+
+
+/*"Check" buttons on menu sidebar*/
+.button {
+/*    margin-right: 4px;
+*/    text-align: center;
+}
+
+div.scroll {
+	width: 97%;
+	height: auto;
+	overflow-y: scroll;
+	z-index: 10;
+	line-height: 140%;
+	font-weight: 600;
+	padding: 5px;
+	background-color: rgba(220,220,220,.9);
+	border: thin solid #000000;
+    color: black;
+}
+
+.checkedNum {
+	font-size: medium;
+	margin-top: -20px;
+	color: #675A5A;
+}
+
+#map{
+	position: absolute;
+	height: 800px;
+	width: 97%;
+	border: medium solid #7E5555;
+	z-index: 10;
+	left: 10px;
+	top: 35px;
+	margin: 10px;
+}
+
+
+/*"Subjective Marker" in menu box*/
+h2 {
+	font-family: Franklin Gothic Heavy;
+	font-weight: bold;
+	font-size: 18pt;
+	text-align: left;
+    color: #675A5A;
+    margin-top: 0px;
+}
+
+/*body{
+	color: #675A5A;
+}
+*/
+.leafletoclickable: hover{
+	width: 5;
+	z-index: 10;
+}
+/*SM markers*/
+.leaflet-clickable {
+	marker-width: 50%;
+    stroke-opacity: .8;
+	z-index: 10;
+	-webkit-transition-property: background color;
+    -webkit-transition-duration: .5s;
+    -webkit-transition-timing-function: ease-in;
+    -moz-transition-property: background color;
+    -moz-transition-duration: .5s;
+    -moz-transition-timing-function: ease-in;
+    -o-transition-property: background color;
+    -o-transition-duration: .5s;
+    -o-transition-timing-function: ease-in;
+    -ms-transition-property: background color;
+    -ms-transition-duration: .5s;
+    -ms-transition-timing-function: ease-in;
+    transition-property: background color;
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+}
+
+.leaflet-popup-content-wrapper {
+    font-size: 12pt;
+    background-color: rgba(58,55,55,.7);
+    color: #F2ECEB;
+    line-height: 120%;
+    border: thin solid #000000;
+    z-index: 10;
+    height: auto;
+    width: auto;
+}
+
+

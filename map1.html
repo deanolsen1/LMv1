@@ -1,0 +1,71 @@
+ <!DOCTYPE html>
+
+<html>
+    
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/arch_cropped2.png">
+    <title>SM Maps</title>
+        
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+    <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
+    <link rel="stylesheet" href="css/multiple-select.css"/>
+    <link rel="stylesheet" href="css/map1style.css"/>
+
+    <script src='js/jquery.js'></script> 
+    <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src='js/jquery.multiple.select.js'></script>
+    <script src='js/map1.js'></script>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <ul>
+                <li class="index"><a href="index.html">Introduction</a></li>
+                <li class="map"><a href="map1.html">Subjective Marker Maps</a></li>
+                <li class="satmap"><a href="map2.html">Naked City Maps</a></li>
+                <li class="credits"><a href="credits.html">Credits</a></li> 
+            </ul>      
+        </div>
+    </header>    
+
+    <div id="menu">
+        <div class="mheader">
+            <h2>Clerc&#8217;s Subjective Markers
+            <span style= "color:red">Interactive Map</span></h2>
+
+            <button id = "checkAllBtn" class= "button">Check All</button>
+            <button id = "uncheckAllBtn" class= "button">Uncheck All</button>
+            <button id = "resetMapBtn" class= "button">Reset Map</button>
+            <button id = "minButton" class= "buttonMin">+/-</button>
+            <!-- <br></br> -->
+            <p id="checkedNum"></p>            
+        </div>
+        <div id="SubjectiveMarkers" class="scroll" style= "display: none"> 
+        </div>
+    </div>
+
+    <div id='map'>
+    </div>
+ 
+    <div id='leaflet-bottom leaflet-left'>
+    </div>
+
+    <!--vcr controls-->
+    <div id="vcr-controls">
+        <!-- <a class="title">Control Timeline<br></a> -->
+        <a class="vcr back-full"><img src="img/skip-back.png" alt="back full"/></a>
+        <a class="vcr back"><img src="img/step-back.png" alt="back"/></a>
+        <a class="vcr play"><img src="img/play.png" alt="play"/></a>
+        <a class="vcr pause"><img src="img/pause.png" alt="pause"/></a>
+        <a class="vcr step"><img src="img/step-ahead.png" alt="forward"/></a>
+        <a class="vcr step-full"><img src="img/skip-full.png" alt="step full"/></a>
+        <a class="vcr faster"><img src="img/faster.png" alt="Increase Speed"/></a>
+        <a class="vcr slower"><img src="img/slower.png" alt="Decrease Speed"/></a>
+    </div>
+</body>
+
+</html>
